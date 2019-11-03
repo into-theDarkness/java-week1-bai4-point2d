@@ -1,6 +1,8 @@
 public class Point2D {
     public float x = 0.0f;
     public float y = 0.0f;
+    public float arr[] = {x,y};
+
     public Point2D(){
 
     }
@@ -23,7 +25,7 @@ public class Point2D {
     public void setY(float y) {
         this.y = y;
     }
-    public float getXY(){
-        return x;
+    public float getXY(float arr[]){
+        return arr[1];
     }
 }
